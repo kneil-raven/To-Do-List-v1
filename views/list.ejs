@@ -19,8 +19,15 @@
       placeholder="New Item"
       autocomplete="off"
     />
+
     <button type="submit" name="list" value="<%= listTitle %>">+</button>
   </form>
+
+  <!-- creating delete button -->
+  <form class="box" action="/deleteItem" method="post">
+    <button type="submit" name="list" value="<%= listTitle %>">x</button>
+  </form>
+  <!--  -->
 </div>
 
 <%- include('footer') -%>

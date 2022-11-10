@@ -54,6 +54,18 @@ app.get("/about", (req, res) => {
   res.render("about");
 });
 
+// deleteItem POST route
+app.post("/deleteItem", (req, res) => {
+  let item = req.body.newItem;
+  if (req.body.list === "Work List") {
+    workItems.splice(workItems.indexOf(item), 1);
+    res.redirect("/work");
+  } else {
+    items.splice(items.indexOf(item), 1);
+    res.redirect("/");
+  }
+});
+
 // listen to port 3000
 // app.listen(process.env.PORT || 3000, () => {
 //     console.log("server running on port 3000");

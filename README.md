@@ -199,3 +199,7 @@ const date = require(__dirname + "/date.js");
 7. remember proper declaration of variables! kapag const ang linagay mo sa isang array or object, it will not throw an error kapag nagdagdag/push ka ng items inside them. pero kapag binago mo yung array or object, it will show error. refer to the documentation below in declaration of variables:
 
    - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/const
+
+8. remember how to use version control using git, command line, and github remote repositories. link below if you need refresher.
+
+   - https://www.udemy.com/course/the-complete-web-development-bootcamp/learn/lecture/12386668#questions/12689376

@@ -130,7 +130,10 @@ res.render("list", { kindOfDay: day });
 4. declare an empty array (latter papalitan ng values na buy, cook, eat) tapos in order to madisplay isuna a mainayon dijay list, use items.push() inside the POST method route. don't forget nga ideclare ejay item nga kayat mo ipush dijay ayan ti POST method route ah, in this case, isu ejay item, haan nga items.
 
 5. kung malabo, rewatch the course on the link below:
+
    - https://www.udemy.com/course/the-complete-web-development-bootcamp/learn/lecture/12384890#questions
+
+6. remember to create a for loop inside the list.ejs para makagawa ka ng list na magdi-display pababa at hindi magstack na iisang array lang siya within a bullet point.
 
 # takeaway lesson Adding Pre-Made Stylesheets to Website (section 22, part 270)
 
